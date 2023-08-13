@@ -34,7 +34,7 @@ class ProductDetailsViewController: UIViewController {
         headingLabel.text = data?.title ?? ""
         titleLabel.text = data?.title ?? ""
         priceLabel.text = "₹\(data?.price ?? 0)"
-        decp.text = data?.description ?? ""
+        decp.text = data?.desc ?? ""
         if let urlString = data?.image, let url = URL(string: urlString) {
             productImageView.sd_setImage(with: url, completed: nil)
         }

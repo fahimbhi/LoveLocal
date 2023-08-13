@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Stores-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LoveLocalTest" customModuleProvider="target" sceneMemberID="viewController">
@@ -26,7 +26,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.72156862745098038" green="0.13725490196078433" blue="0.55686274509803924" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Cnj-OW-fzG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="050-Nj-hPE"/>
                             <constraint firstItem="Cnj-OW-fzG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2cK-f9-S1f"/>
@@ -34,7 +34,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cnj-OW-fzG" secondAttribute="trailing" id="yGD-gb-aep"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="feN-GX-hKE"/>
+                    <navigationItem key="navigationItem" title="Stores" id="feN-GX-hKE"/>
                     <connections>
                         <outlet property="tblView" destination="Cnj-OW-fzG" id="dya-XK-94C"/>
                     </connections>

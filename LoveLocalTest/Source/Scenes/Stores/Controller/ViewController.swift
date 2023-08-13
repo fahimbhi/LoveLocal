@@ -19,6 +19,11 @@ class ViewController: UIViewController {
         registerCell()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.setNavigationBarHidden(false, animated: true)
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+    }
+    
     private func navigateToShopDetailsVC(data: ShopModel) {
         let shopDetailsVC = StoreDetailsViewController()
         shopDetailsVC.shopIcon = data.icon
