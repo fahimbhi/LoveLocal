@@ -8,7 +8,12 @@
 import UIKit
 
 class MustHaveTableViewCell: UITableViewCell {
-
+    
+    static let identifier = "MustHaveTableViewCell"
+    static func nib()->UINib{
+        return UINib(nibName: "MustHaveTableViewCell", bundle: nil)
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,5 +24,5 @@ class MustHaveTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
 }

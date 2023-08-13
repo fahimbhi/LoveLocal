@@ -9,6 +9,8 @@ import UIKit
 
 class StoreAddressTableViewCell: UITableViewCell {
 
+    static let identifier = "ShopAddressTableViewCell"
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,5 +21,5 @@ class StoreAddressTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
 }
